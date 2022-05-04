@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/.bin/jest"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jest": "^28.0.0"
+    "jest": "^26.0.0"
   },
   "devDependencies": {
     "eslint": "^8.14.0"
