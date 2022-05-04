@@ -10,6 +10,6 @@ describe("Test for FizzBuzzService", ()=>{
                             score: 15
                         }
 
-        expect(FizzBuzzService.applyValidationInExplorer(explorer).trick).toBe("15");
+        expect(FizzBuzzService.applyValidationInExplorer(explorer).trick).toBe("FIZZBUZZ");
     });
 })
