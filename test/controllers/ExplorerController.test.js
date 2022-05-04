@@ -25,4 +25,12 @@ describe("Test for ExplorerController", ()=>{
 
         expect(usernames.length).toBe(5);
     });
+
+    test("Prueba 4: applyValidationInNumber FizzBuzz", ()=>{
+
+        const score = 15;
+        const fizzbuzz = ExplorerController.applyValidationInNumber(score);
+
+        expect(fizzbuzz).toBe("FIZZBUZZ");
+    });
 });
